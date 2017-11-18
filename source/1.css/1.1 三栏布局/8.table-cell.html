@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>display:table</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            min-height: 200px;
+        }
+        .main {
+            display: table;
+            border-collapse: collapse; /*为表格设置合并边框模型*/
+        }
+
+        .left {
+            display: table-cell;
+            width: 200px;
+            background: red;
+        }
+
+        .middle {
+            display: table-cell;
+            width: 100%;
+            background: yellow;
+        }
+
+        .right {
+            display: table-cell;
+            width: 220px;
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+<div class="main">
+    <div class="left">left</div>
+    <div class="middle">middle</div>
+    <div class="right">right</div>
+</div>
+</body>
+</html>

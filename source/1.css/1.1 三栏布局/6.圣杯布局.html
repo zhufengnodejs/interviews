@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训 www.zhufengpeixun.cn</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            padding:0 220px 0 200px;
+        }
+        div{
+            min-height: 200px;
+        }
+        .main-inner,.left,.right{
+            float:left;
+        }
+        .main-inner{
+            width:100%;
+            background-color: yellow;
+        }
+        .left{
+            width:200px;
+            background-color: red;
+            margin-left:-100%;
+            position: relative;
+            left:-200px;
+        }
+        .right{
+            width:220px;
+            background-color: blue;
+            margin-left:-220px;
+            position: relative;
+            right:-220px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="main-inner">11111111111111111111</div>
+    <div class="left"></div>
+    <div class="right"></div>
+</div>
+<p>父padding,主100</p>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏式布局</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .left{
+            position: absolute;
+            width:300px;
+            height:300px;
+            top:0;
+            left:0;
+            background-color: red;
+        }
+        .right{
+            position: absolute;
+            width:300px;
+            height:300px;
+            top:0;
+            right:0;
+            background-color: blue;
+        }
+        .middle{
+            height:300px;
+            padding:0px 300px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<div class="left"></div>
+<div class="middle"></div>
+<div class="right"></div>
+</body>
+</html>

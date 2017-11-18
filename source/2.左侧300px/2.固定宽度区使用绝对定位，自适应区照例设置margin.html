@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训 www.zhufengpeixun.cn</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        #wrap {
+            overflow: hidden;
+            position: relative;
+        }
+        #content ,#sidebar {
+            background-color: #eee;
+        }
+        #sidebar {
+            width:300px;
+            position: absolute;
+            right:0;
+            top:0;
+        }
+        #content {
+            margin-right: 310px;
+        }
+        #footer {background-color: #f00;color:#fff; margin-top: 1em}
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div id="sidebar" style="height:240px;">固定宽度区</div>
+    <div id="content" style="height:340px;">自适应区</div>
+</div>
+<div id="footer">后面的一个DIV，以确保前面的定位不会导致后面的变形</div>
+</body>
+</html>

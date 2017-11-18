@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏式布局</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display:flex;
+            flex-direction: row;
+
+        }
+
+        .left {
+            height: 300px;
+            width:300px;
+            background-color: greenyellow;
+        }
+
+        .right {
+            height: 300px;
+            width:300px;
+            background-color: lightgreen;
+        }
+
+        .middle {
+            height: 300px;
+            flex-grow: 1;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left"></div>
+    <div class="middle"></div>
+    <div class="right"></div>
+</div>
+
+</body>
+</html>
